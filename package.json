@@ -4,7 +4,7 @@
   "description": "Get started with your next poggest Discord bot! 🤖",
   "repository": {
     "type": "git",
-    "url": "https://github.com/harshil1712/create-discord-bot.git"
+    "url": "https://github.com/harshil1712/build-discord-bot.git"
   },
   "main": "index.js",
   "bin": "./script.js",
@@ -23,5 +23,5 @@
     "inquirer": "^8.0.0",
     "shelljs": "^0.8.4"
   },
-  "homepage": "https://github.com/harshil/create-discord-bot"
+  "homepage": "https://github.com/harshil1712/build-discord-bot"
 }
