@@ -1,0 +1,27 @@
+{
+  "name": "create-discord-bot",
+  "version": "0.0.1",
+  "description": "Get started with your next poggest Discord bot! 🤖",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harshil1712/create-discord-bot.git"
+  },
+  "main": "index.js",
+  "bin": "./script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "template",
+    "bot-template",
+    "discord",
+    "discord-bot-template"
+  ],
+  "author": "Harshil Agrawal <hey@harshil.dev> (http://harshil.dev)",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^8.0.0",
+    "shelljs": "^0.8.4"
+  },
+  "homepage": "https://github.com/harshil/create-discord-bot"
+}
