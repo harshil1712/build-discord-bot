@@ -1,4 +1,4 @@
-# Create Discord Bot
+# Build Discord Bot
 
 This package allows you to quickly get started with building your Discord bot. The package:
 
@@ -18,11 +18,11 @@ This package allows you to quickly get started with building your Discord bot. T
 
 #### 1. Install the package
 
-`npm install -g create-discord-bot`
+`npm install -g build-discord-bot`
 
 #### 2. Create template
 
-`create-discord-bot <YOUR-PROJECT-NAME>`
+`build-discord-bot <YOUR-PROJECT-NAME>`
 
 ## Contribute 🤝
 
