@@ -3,7 +3,9 @@
 This package allows you to quickly get started with building your Discord bot. The package:
 
 ⬇️ Clones [this](https://github.com/harshil1712/Discord-Bot-Template) template respository
+
 🔄 Downloads the required node modules (Discord.js, dotenv, nodemon)
+
 ⚡️ Initializes git repo
 
 ## Getting Started 🚀
