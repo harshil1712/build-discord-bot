@@ -16,7 +16,7 @@ When you're creating a new issue make sure to share as much information as you c
 1. Fork the repository
 2. Clone the forked repository using the command
 ```
-git clone https://github.com/<YOUR-USERNAME>/discord-npm.git
+git clone https://github.com/<YOUR-USERNAME>/build-discord-bot.git
 ```
 3. Create a new branch. If you're fixing a bug start the  branch name with `fix/` or if you're adding a new feature start the branch name with `feature/`
 ```
