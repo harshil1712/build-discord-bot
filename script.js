@@ -60,7 +60,8 @@ inquirer
 		shell.exec('rm -rf .git');
 		shell.exec('git init');
 
-		shell.echo("🤖 You'r all set to build your bot");
+    // 5. Select request library to install after the repo it's cloned
+    requestLibraryStep();
 	})
 	.catch((error) => {
 		if (error.isTtyError) {
@@ -70,3 +71,29 @@ inquirer
 			// Something else went wrong
 		}
 	});
+
+  const requestLibraryStep = () => {
+    inquirer
+      .prompt([
+        {
+          type: "list",
+          name: "request",
+          message: "Which request library do yo want to use for your requests?",
+          choices: [
+            { name: "axios", value: "npm i axios" },
+            { name: "node-fetch", value: "npm i node-fetch" },
+            { name: "got", value: "npm i got" },
+            { name: "I will handle these by myself", value: "" },
+          ],
+        },
+      ])
+      .then(({ request }) => {
+        if (request) {
+          shell.exec(request);
+        }
+      })
+      .catch((error) => {
+        shell.echo("⛔️ Error: Can't install the request library selected");
+      })
+      .finally(() => shell.echo("🤖 You'r all set to build your bot"));
+  };
